@@ -16,7 +16,7 @@ export const HeroCard = ({
       <div className="row no-gutters">
         <div className="col-md-4">
           <img
-            src={`${process.env.PUBLIC_URL}./assets/heroes/${id}.jpg`}
+            src={`./assets/heroes/${id}.jpg`}
             className="card-img"
             alt={superhero}
           />
